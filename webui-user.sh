@@ -10,7 +10,8 @@
 #clone_dir="stable-diffusion-webui"
 
 # Commandline arguments for webui.py, for example: export COMMANDLINE_ARGS="--medvram --opt-split-attention"
-export COMMANDLINE_ARGS="--reinstall-xformers --xformers" #  --nowebui"
+export COMMANDLINE_ARGS="--reinstall-xformers --xformers --ckpt /home/nauris_dorbe/book_chef/temp/stable-diffusion-webui/models/Stable-diffusion/sd-v1-5-inpainting.ckpt"
+export TRANSFORMERS_CACHE="/home/$USER/book_chef/temp/webui-cache"
 
 # python3 executable
 #python_cmd="python3"
